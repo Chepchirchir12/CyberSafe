@@ -11,11 +11,15 @@ A secure file encryption and decryption tool built with Python.
 
 ## Requirements
 - Python 3.9+
-- `cryptography`
+- cryptography
 
 ## Install
+## Install
+
 ```bash
 pip install -r requirements.txt
+```
+
 ## Usage
 
 1. Put the file you want to encrypt in the project folder (or use full path).
@@ -23,17 +27,24 @@ pip install -r requirements.txt
 
 ```bash
 python main.py
+```
 
----
+3. Choose:
+- `1` to encrypt
+- `2` to decrypt
 
-###  Important
-Make sure the triple backticks (```) are included exactly like above — that’s what makes the code block formatting work.
+## Example
 
----
+### Encrypt
+- Option: `1`
+- File path: `notes.txt`
+- Password: `mypassword123`
 
-After pasting:
+### Decrypt
+- Option: `2`
+- File path: `notes.txt`
+- Password: `mypassword123`
 
-1. Click **Preview** at the top of the README editor  
-   (to confirm formatting looks clean)
-2. Click **Commit changes…**
-3. Commit message:
+## Warning 
+
+If you forget the password, you cannot recover the encrypted file.
